@@ -104,7 +104,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## 🙏 Acknowledgments
 
-- Built during [Hackathon Name]
+- Built during [Mantle-APAC Hackathon on HackQuest]
 - Powered by Mantle Network
 - Special thanks to all contributors
 

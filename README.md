@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sketch-Chain
 
-## Getting Started
+A Web3 drawing game where players wager crypto, compete to draw and guess, and winners take the pool.
 
-First, run the development server:
+[![Video Demo](https://img.youtube.com/vi/oJ6OyIFg-sU/0.jpg)](https://youtu.be/oJ6OyIFg-sU?feature=shared)
 
+## 🎮 Features
+
+- Real-time drawing and guessing gameplay
+- Cryptocurrency wagering system
+- Automatic prize distribution
+- WalletConnect integration
+- Game history tracking
+- Smart contract-based game logic
+
+## 🛠️ Built With
+
+- Next.js 14
+- TypeScript
+- Socket.io
+- Solidity
+- WalletConnect
+- Mantle Network
+
+## 🚀 Contract Details
+
+- Network: Mantle-Sepolia Testnet
+- Contract Address: `0x5D8D952a174e094aab6fFA4E01d0bcF5696BbA78`
+
+## 📋 Prerequisites
+
+- Node.js (v18 or higher)
+- Yarn or npm
+- MetaMask or any WalletConnect compatible wallet
+- Mantle-Sepolia testnet MNT for transactions
+
+## ⚙️ Installation
+
+1. Clone the repository:
 ```bash
+git clone https://github.com/Kaustubh-404/Sketch-Chain
+cd sketch-chain
+```
+
+2. Frontend Setup:
+```bash
+# Install frontend dependencies
+npm install
+# or
+yarn install
+
+# Set up environment variables
+cp .env.example .env.local
+
+# Start the frontend development server
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Backend Setup:
+```bash
+# Navigate to backend directory
+cd backend
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Install backend dependencies
+npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Start the backend server
+npm run dev
+# or
+node server.js
+```
 
-## Learn More
+## 🎯 How to Play
 
-To learn more about Next.js, take a look at the following resources:
+1. Connect your Web3 wallet
+2. Create a room or join with a 6-digit code
+3. Place your wager (minimum 1 USD)
+4. Take turns drawing and guessing
+5. Highest points winner takes the pool!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏗️ Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+project-root/
+├── src/               # Frontend code
+│   ├── app/          # Next.js pages
+│   ├── components/   # React components
+│   ├── contracts/    # Smart contracts
+│   ├── hooks/        # Custom hooks
+│   └── utils/        # Utility functions
+├── backend/          # Backend Socket.io server
+└── public/          # Static assets
+```
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## 🙏 Acknowledgments
+
+- Built during [Hackathon Name]
+- Powered by Mantle Network
+- Special thanks to all contributors
+
+## 📧 Contact
+
+Your Name - [@flackk_](https://twitter.com/flackk_)
+
+Project Link: [https://github.com/Kaustubh-404/Sketch-Chain](https://github.com/Kaustubh-404/Sketch-Chain)

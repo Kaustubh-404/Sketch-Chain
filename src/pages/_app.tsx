@@ -1,30 +1,3 @@
-// // src/pages/_app.tsx
-// import '@/styles/globals.css';
-// import type { AppProps } from 'next/app';
-// import { WagmiConfig } from 'wagmi';
-// import { RainbowKitProvider } from '@rainbow-me/rainbowkit';
-// import { Toaster } from 'react-hot-toast';
-// import { wagmiConfig, chains } from '@/config/web3';
-// import { Layout } from '@/components/Layout';
-// import { ErrorBoundary } from '@/components/ErrorBoundary';
-// import { ConnectionGuard } from '@/components/ConnectionGaurd';
-
-// export default function App({ Component, pageProps }: AppProps) {
-//   return (
-//     <ErrorBoundary>
-//       <WagmiConfig config={wagmiConfig}>
-//         <RainbowKitProvider chains={chains}>
-//           <ConnectionGuard>
-//             <Layout>
-//               <Component {...pageProps} />
-//               <Toaster position="top-right" />
-//             </Layout>
-//           </ConnectionGuard>
-//         </RainbowKitProvider>
-//       </WagmiConfig>
-//     </ErrorBoundary>
-//   );
-// }
 
 import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
